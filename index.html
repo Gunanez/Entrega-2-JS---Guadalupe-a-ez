@@ -3,11 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
     <title>GALERIA DE ARTE</title>
 </head>
 <body>
-    <h1>GALERIA DE ARTE</h1>
-    <p>App creada para permitir que los usuarios puedan conocer las diferentes formas de arte disponibles, comprar pinturas o esculturas y obtener beneficios adicionales</p>
+    <a href="./index.html">Inicio</a>
+    <a href="./carritocompra.html">Carrito</a>
+
+    <h1 id="title">GALERIA DE ARTE</h1>
+        <p>App creada para permitir que los usuarios puedan conocer las diferentes formas de arte disponibles, comprar pinturas o esculturas y obtener beneficios adicionales</p>
+    
+    <h2>Agregar al carrito</h2>
+        <div class="galeria">
+            <h3>Nuestras Obras</h3>
+            <p>Obras premium de artistas, fotógrafos y otros creativos seleccionados</p>
+        </div>
+    <h2>Contactanos</h2>
+        <div class="contact-container">
+            <div class="contact-form-container">
+                <h3>OBRAS PERSONALIZADAS</h3>
+                <p>Podrás crear junto a la artista tu obra personalizada exclusiva que transforme tu espacio. Completa este formulario y recibí su asesoramiento y presupuesto.</p>
+                <form id="contactForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Escribe tu nombre">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="Tu número telefónico">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Escribe tu consulta"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+
+
+            </div>
+            <div class="contact-image-container">
+                <img class="image-contact" src="imagenes/form.jpg">
+            </div>
+        </div>
     <script src="main.js"></script>
 </body>
 </html>
